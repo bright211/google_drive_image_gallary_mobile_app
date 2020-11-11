@@ -24,6 +24,11 @@ function App() {
     //   <PaperProvider>
         <NavigationContainer>
           <Stack.Navigator>
+          <Stack.Screen
+              name="Home"
+              component={HomeScreen}
+              options={{ headerShown: false }}
+            />
             <Stack.Screen
               name="Login"
               component={LoginScreen}
@@ -42,11 +47,7 @@ function App() {
               options={{ headerShown: false }}
             />
 
-            <Stack.Screen
-              name="Home"
-              component={HomeScreen}
-              options={{ headerShown: false }}
-            />
+            
 
             {/* <Stack.Screen
               name="Local"

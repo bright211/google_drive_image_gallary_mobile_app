@@ -27,7 +27,8 @@
     "react-native-screens": "^2.13.0",
     "react-native-slideshow": "1.0.1",
     "react-native-table-component": "^1.2.1",
-    "react-native-timed-slideshow": "^1.2.1"
+    "react-native-timed-slideshow": "^1.2.1",
+    "react-native-vector-icons": "^7.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
