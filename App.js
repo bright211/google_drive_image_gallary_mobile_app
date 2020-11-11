@@ -7,10 +7,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 // import store from './src/redux';
 
 // import app screens
-import HomeScreen from './src/screens/HomeScreen'
 import LoginScreen from './src/screens/LoginScreen'
 import ServerScreen from './src/screens/ServerScreen'
-// import LocalScreen from './src/screens/Local'
+import DashboardScreen from './src/screens/DashboardScreen'
 // import LoginScreen from './src/screens/Login'
 // import SettingScreen from './src/screens/Setting'
 
@@ -31,8 +30,8 @@ function App() {
             />
 
             <Stack.Screen
-              name="Home"
-              component={HomeScreen}
+              name="Dashboard"
+              component={DashboardScreen}
               options={{ headerShown: false }}
             />
 

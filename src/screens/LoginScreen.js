@@ -13,7 +13,7 @@ function Login({ navigation }) {
     }
 
     const _onPressed = () => {
-        goNavigation('Home')
+        goNavigation('Dashboard')
     }
 
     return (
