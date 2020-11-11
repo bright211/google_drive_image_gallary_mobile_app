@@ -1,12 +1,63 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import * as React from "react"
+import { StyleSheet, Text, View } from "react-native";
+import Slider from "react-native-hook-image-slider"
+import { SliderBox } from "react-native-image-slider-box";
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
-function HomeScreen() {
-  return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>Home Screen</Text>
-    </View>
-  );
+import TimedSlideshow from 'react-native-timed-slideshow';
+   
+const HomeScreen = () => { 
+		const items = [
+			{
+				uri: "http://i.imgur.com/XP2BE7q.jpg", 
+			},
+			{
+				uri:  "http://i.imgur.com/6vOahbP.jpg", 
+				duration: 3000
+			},
+			{
+				uri:  "http://i.imgur.com/5nltiUd.jpg",
+				fullWidth: true
+			},
+			{
+				uri: "http://i.imgur.com/kj5VXtG.jpg", 
+			},
+			{
+				uri:  "http://i.imgur.com/BN8RVGa.jpg", 
+				duration: 3000
+			},
+			{
+				uri:  "http://i.imgur.com/jXbhTbv.jpg",
+				fullWidth: true 
+			},
+			{
+				uri:  "http://i.imgur.com/30s12Qj.jpg", 
+				duration: 3000
+			},
+			{
+				uri:  "http://i.imgur.com/4A1Q49y.jpg",
+				fullWidth: true 
+			},
+			{
+				uri:  "http://i.imgur.com/JfVDTF9.jpg", 
+				duration: 3000
+			},
+			{
+				uri:  "http://i.imgur.com/Vv4bmwR.jpg",
+				fullWidth: true
+			}
+		]
+
+		return (
+			<TimedSlideshow
+				items={items}
+			/>
+		);
+ 
+
 }
 
 export default HomeScreen;
