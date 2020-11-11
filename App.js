@@ -10,6 +10,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import LoginScreen from './src/screens/LoginScreen'
 import ServerScreen from './src/screens/ServerScreen'
 import DashboardScreen from './src/screens/DashboardScreen'
+import HomeScreen from './src/screens/HomeScreen';
 // import LoginScreen from './src/screens/Login'
 // import SettingScreen from './src/screens/Setting'
 
@@ -40,14 +41,14 @@ function App() {
               component={ServerScreen}
               options={{ headerShown: false }}
             />
-{/* 
+
             <Stack.Screen
-              name="Setting"
-              component={SettingScreen}
+              name="Home"
+              component={HomeScreen}
               options={{ headerShown: false }}
             />
 
-            <Stack.Screen
+            {/* <Stack.Screen
               name="Local"
               component={LocalScreen}
               options={{ headerShown: false }}
