@@ -1,0 +1,7 @@
+export const errorIcon  = require('./icons/error.png')
+export const clockIcon  = require('./icons/clock.png')
+export const copyIcon  = require('./icons/copy.png')
+export const googleIcon  = require('./icons/google.png')
+export const backIcon  = require('./icons/back.png')
+export const rightIcon  = require('./icons/right.png')
+export const downloadIcon  = require('./icons/download.png')
