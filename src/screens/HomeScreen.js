@@ -55,6 +55,14 @@ const HomeScreen = ({navigation}) => {
     },
   ];
 
+
+  React.useEffect(() => {
+      setTimeout(function () {
+          navigation.replace('ImageScreen');
+        }, 3000);
+  }, []);
+
+
   return (
     <PanGestureHandler onHandlerStateChange={handleGesture}>
       <View style={{height:hp(100), width:wp(100)}}>
