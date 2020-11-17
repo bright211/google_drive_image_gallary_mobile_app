@@ -28,6 +28,7 @@ const style = StyleSheet.create({
     text: {
         width: wp(80),
         height:hp(3),
+        paddingLeft:15,
         fontSize: 16,
         color: 'white',        
     },

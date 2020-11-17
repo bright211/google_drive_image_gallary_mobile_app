@@ -13,7 +13,7 @@ function Routes() {
       <Stack.Navigator>
         <Stack.Screen name="HomeScreen" component={HomeScreen} options={{headerShown: false}}/>
         <Stack.Screen name="TestScreen" component={TestScreen} options={{headerShown: false}}/>
-        <Stack.Screen name="ImageScreen" component={ImageScreen} options={{headerShown: false}}/>
+        {/* <Stack.Screen name="ImageScreen" component={ImageScreen} options={{headerShown: false}}/> */}
       </Stack.Navigator>
     </NavigationContainer>
   );
